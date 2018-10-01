@@ -27,7 +27,6 @@ def ui_area_output(area: float):
     """
     This function print area of triangle
     :param area: Area of triangle
-    :return:
     """
     print(f'Area of triangle = {area}')
 
