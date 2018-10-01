@@ -1,5 +1,6 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
+
 i = 2
 numb = int(input())
 while i < numb:
