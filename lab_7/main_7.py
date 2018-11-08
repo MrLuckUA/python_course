@@ -6,6 +6,7 @@ def to_camel_case(line: str) -> str:
     result = str()
     next_upper = False
     for el in line:
+
         if next_upper:
             el = el.upper()
             next_upper = False
