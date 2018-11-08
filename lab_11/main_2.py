@@ -3,12 +3,12 @@
 
 
 def get_rand():
-    number = "654321"
+    seed = "654321"
     while True:
-        seed = str(int(number[3:] + number[:3]) * int(number))
-        seed = "0" * (12 - len(seed)) + seed[:]
-        number = seed[3:9]
-        yield number
+        number = str(int(seed[3:] + seed[:3]) * int(seed))
+        number = "0" * (12 - len(number)) + number[:]
+        seed = number[3:9]
+        yield seed
 
 
 a = get_rand()
